@@ -49,6 +49,12 @@ print(w)
 print(z)'''
 
 
+
+
+#indexing and slciing 
+
+
+
 '''import numpy as np 
 l=[10,20,30,40,50]
 a=np.array(l)
@@ -57,9 +63,17 @@ print(a[-1])
 print(a[-2])
 print(a[-4])'''
 
-import numpy as np 
+'''import numpy as np 
 l=[10,20,30,40,50,60,70]
 a=np.array(l)
 print(a[1:5])
 print(a[1:5:2])
-print(a[1:3])
+print(a[1:3])'''
+
+
+import numpy as np 
+l=[10,20,33,49,54,22,122,65,77,10,40,60,60]
+a=np.array(l)
+print(a[0:6:1])
+print(a[3:6:3])
+print(a[3:6:2])
