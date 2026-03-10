@@ -1,3 +1,5 @@
+
+#NUMPY ARRAYS
 '''import numpy as np 
 l= [10,20,30,40,50]
 a=np.array(l)
@@ -51,7 +53,7 @@ print(z)'''
 
 
 
-#indexing and slciing 
+#INDEXING AND SLICING
 
 
 
@@ -71,9 +73,68 @@ print(a[1:5:2])
 print(a[1:3])'''
 
 
-import numpy as np 
+'''import numpy as np 
 l=[10,20,33,49,54,22,122,65,77,10,40,60,60]
 a=np.array(l)
 print(a[0:6:1])
 print(a[3:6:3])
-print(a[3:6:2])
+print(a[3:6:2])'''
+
+
+
+
+'''import numpy as np
+l=[[20,30,40],[44,32,12],[44,56,10]]
+a=np.array(l)
+
+print(a[1:3,1:])'''
+
+
+
+
+#ARITHEMATIC OPERATIONS 
+
+
+
+'''import numpy as np
+x=np.array([[1,2],[3,4]])
+y=np.array([[11,12],[13,14]])
+
+#add
+z=x+y
+print("addition")
+print(z)
+
+#subtarct
+a=y-x
+print("subtract")
+print(a)
+
+#element_wisemultiply
+b=x*y
+print("element-wise mul")
+print(b)
+
+#matrix_multiply
+c=x @ y
+print("matrix_mul")
+print(c)
+
+#divide
+d=y/x
+print("divide")
+print(d)
+
+#exponent
+e=x**y
+print("exponent")
+print(e)
+
+#modulus
+m=x%y
+print("modulus")
+print(m)
+
+
+#transpose
+print(x.transpose())'''
