@@ -162,7 +162,7 @@ print(w)'''
 
 #SORTING IN 1D ARRAY 
 
-import numpy as np
+'''import numpy as np
 a=np.array([10,20,50,70,20,80,27,9,40])
 
 
@@ -171,4 +171,4 @@ print(x)
 #gives index of sorted array
 y=np.argsort(a)
 print(y)
-
+'''
