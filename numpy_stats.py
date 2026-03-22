@@ -1,7 +1,7 @@
 # STATISTICaL OPERATIONS
 
 
-import numpy as np
+'''import numpy as np
 a=np.array([6,2,45,7,99,1])
 
 # MAX()
@@ -28,3 +28,12 @@ print(np.var(a))
 # STANDARD DEVIATION/ STD() - square root of variance
 print(np.std(a))
 
+'''
+
+
+
+# ARRAY RESHAPING 
+import numpy as np
+a=np.array([1,2,3,4,5,6])
+x=a.reshape(2,3)
+print(x)
