@@ -58,18 +58,19 @@ x=["python" , "c", " c++" , "java"]
 y=[85,70,63,82]
 z=[20,30,40,50]
 
-list=np.arange(len(x)) # array of index number of axex#index number of axes
-list1 =[]
 width=0.2
+list=np.arange(len(x)) # array of index number of axex#index number of axes
+list1 =list + width
+
 
 # bar graph1
-plt.bar(list,y, edgecolor="b" , linewidth=1.5,linestyle=":" , alpha=0.4 , label="wscube" )
+plt.bar(list1,y, edgecolor="b" , linewidth=1.5,linestyle=":" , alpha=0.4 , label="wscube" )
 
 plt.legend() #for sshowing the title of the graph
 
 
 # bar graph2
-plt.bar(list,z,edgecolor="b" , linewidth=1.5,linestyle=":" , alpha=0.4 , label="wscube" )
+plt.bar(list1,z,edgecolor="b" , linewidth=1.5,linestyle=":" , alpha=0.4 , label="wscube" )
 
 # label and title 
 plt.xlabel("languages")
